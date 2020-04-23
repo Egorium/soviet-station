@@ -37,18 +37,19 @@
 							 /datum/computer_file/program/chem_catalog,
 							 /datum/computer_file/program/reports)
 
-	description = "The Chief Biolab Overseer is the head of the medical branch of the Soteria Institute, preserving and improving lives.<br>\
-	Your main responsibility is to keep everyone alive, as is the objective of your department. Prioritise health over most other concerns. <br>\
-	A variety of medical staff work under your command. Although these roles are clear-cut compared to the research branch, direct them appropriately.<br>\
-	Of course, remember that you are a doctor yourself - feel free to help with less specialised activities to ease the burden.<br>\
-	The Medical wing also falls under the ownership of Soteria. You may use their resources - and they may use yours - as needed."
+	description = "Главный надзиратель биолаборатории является руководителем медицинского отделения Института Сотерия, который спасает и улучшает жизнь.<br>\
+ Ваша главная обязанность состоит в том, чтобы сохранить жизнь всем, так как это является задачей вашего отдела. Приоритет здоровья по сравнению с большинством других проблем. . <br>\
+br>\
+    Под вашим командованием работают различные медицинские работники. Хотя эти роли четко определены по сравнению с областью исследований, направьте их соответствующим образом.<br>\
+	 Конечно, помните, что вы сами врач - не стесняйтесь помогать с менее специализированными мероприятиями, чтобы облегчить всем жизнь..<br>\
+	  Медицинское крыло также попадает в собственность Сотерии. Вы можете использовать их ресурсы - и они могут использовать ваши - по мере необходимости.."
 
-	duties = "Direct the doctors under your command towards the bettering of all mankind.<br>\
-	Dispatch your paramedics to distress calls, and corpse recoveries as needed.<br>\
-	Use department funds to purchase medical supplies and equipment as needed.<br>\
-	Advise the council on medical issues that concern the crew.<br>\
-	Advise the crew on ethical issues.<br>\
-	In times of crisis, lock down the medbay to protect those within, from outside threats."
+	duties = "Направьте врачей под вашим руководством на благо всего человечества.<br>\
+	Направляйте своих медработников на просьбы о помощи и доставайте трупы по мере необходимости.<br>\
+	Используйте средства отдела для закупки медикаментов и оборудования по мере необходимости.<br>\
+	Консультирование совета по медицинским вопросам, касающимся экипажа.<br>\
+	Консультирование экипажа по этическим вопросам.<br>\
+	Во времена ЧС заблокируйте мед бэй для защиты тех, кто находится внутри, от внешних угроз."
 
 /obj/landmark/join/start/cmo
 	name = "Chief Biolab Overseer"
@@ -86,15 +87,15 @@
 							/datum/computer_file/program/chem_catalog,
 							/datum/computer_file/program/camera_monitor)
 
-	description = "The Doctor is a professional medic and surgeon dedicated to healing the sick and injured, at all costs.<br>\
-	A broad range of medical procedures fall under your purview - diagnostics, general treatment, surgery, and virology.<br>\
-	You are not expected to be an expert in all: specialising in an area is fine. Divide tasks amongst colleagues, with CBO guidance.<br>\
-	Remember that chemistry has a dedicated specialist. Avoid this department unless it is notably short-staffed.<br>\
-	Due to the nature of your work, you may find yourself confined to the department for the shift majority. Don't abandon patients."
+	description = "Доктор является профессиональным врачом и хирургом, который занимается лечением больных и раненых любой ценой..<br>\
+	К вашим услугам широкий спектр медицинских процедур - диагностика, общее лечение, хирургия и вирусология..<br>\
+От вас не ожидают быть экспертом во всем: специализация в области - это хорошо. Разделите задачи между коллегами под руководством надзирателя биолаборатории.<br>\
+	Помните, что у химии есть специальный специалист. Избегайте этого отдела, если он не очень укомплектован.<br>\
+	Из-за характера вашей работы вы можете оказаться в отделении для сменного большинства. Не отказывайтесь от пациентов."
 
-	duties = "Heal the sick and injured, whatever their complaint.<br>\
-		Diagnose illnesses, offer general services, perform surgery, or even study viruses.<br>\
-		Fill in at chemistry if a Chemist is unavailable."
+	duties = "Исцеляйте больных и раненых, независимо от их жалоб.<br>\
+		Диагностируйте болезни, предлагайте общие услуги, выполняйте операции или даже изучайте вирусы.<br>\
+		Используйте химию, если химик недоступен."
 
 /obj/landmark/join/start/doctor
 	name = "Soteria Doctor"
@@ -130,17 +131,17 @@
 	software_on_spawn = list(/datum/computer_file/program/chem_catalog,
 							/datum/computer_file/program/scanner)
 
-	description = "The Chemist is both man of medicine and science, mixing colorful liquids to make other similarly colorful, but more useful, liquids.<br>\
-	Your primary role is that of a pharmacist. Prepare medicines for use by the medical staff, so that they can capably treat a broad variety of conditions.<br>\
-	Your secondary responsibility is that of a chemical manufacturer. Efficiently fulfill requests for your Soteria colleagues. Don't question why, it's above your paygrade.<br>\
-	Your third duty is to run a chemical sales outlet. You may get requests from other colonists to make acid, chemical grenades, smoke, napalm, or perhaps even just medicines.<br>\
-	You are fully licensed to sell any and all chemicals to all colonists. If someone isn't an employee of Soteria Institute, charge them for their chemicals.<br>\
-	It's worth noting that you don't always have everything you need on hand. Some recipes will require external ingredients - acquire these however you can."
+	description = "Химик - человек медицины и науки, смешивающий разноцветные жидкости, чтобы сделать другие столь же красочные, но более полезные жидкости.<br>\
+	Ваша основная роль - роль фармацевта. Подготовьте лекарства для использования медицинским персоналом, чтобы они могли эффективно лечить самые разные заболевания..<br>\
+	Ваша вторичная ответственность - ответственность производителя химикатов. Эффективно выполнять запросы для ваших коллег Soteria.<br>\
+	Ваша третья обязанность - управлять торговым представителем по продаже химикатов Вы можете получить запросы от других колонистов, чтобы сделать кислоты, химические гранаты, дым, напалм, или, возможно, даже просто лекарства.<br>\
+	Вы имеете полную лицензию на продажу любых химикатов всем колонистам. Если кто-то не является сотрудником Института Сотерия, взимайте с него плату за химические вещества.<br>\
+	Стоит отметить, что у вас не всегда есть все, что вам нужно. Некоторые рецепты потребуют внешних ингредиентов - приобретите их, как вы можете."
 
-	duties = "Mix medicines for doctors.<br>\
-		Maintain a good stock of bicaridine, dexalin, peridaxon, and alkysine.<br>\
-		Fill chemical requests for soteria staff.<br>\
-		Sell chemicals and chem grenades to outsiders."
+	duties = "Смешайте лекарства для врачей.<br>\
+		Поддерживать большой запас бикаридина, дексалина, перидаксона и алкисина.<br>\
+		Выполните химические запросы для сотрудников Сотерии.<br>\
+		Продавать химикаты и химические гранаты посторонним."
 
 /obj/landmark/join/start/chemist
 	name = "Soteria Chemist"
@@ -177,14 +178,14 @@
 							/datum/computer_file/program/chem_catalog,
 							/datum/computer_file/program/camera_monitor)
 
-	description = "The Psychiatrist is a mental specialist that works to help colonists through their various issues and concerns.<br>\
-	In some ways you are a professional conversationalist. Despite knowing advanced therapy techniques, sometimes a mere chat can work wonders.<br>\
-	More eventful days may involve you having particularly unstable colonists sectioned, or interviewing criminals in coordination with Security.<br>\
-	Remember that patient confidentiality is highly important in your profession. Keep sensitive information between you and the patient."
+	description = "Психиатр - врач, который помогает колонистам решать их различные проблемы.<br>\
+	В некотором смысле вы профессиональный собеседник. Несмотря на знание передовых методов терапии, иногда простой разговор может творить чудеса.<br>\
+	Более насыщенные дни могут включать в себя разделение особо нестабильных колонистов или опрос преступников по согласованию с Службой безопасности..<br>\
+	Помните, что конфиденциальность пациента очень важна в вашей профессии. Храните конфиденциальную информацию между вами и пациентом."
 
-	duties = "Speak with anyone who desires help, no matter their rank or relation.<br>\
-		Prescribe medicine and offer therapy courses for those who need it.<br>\
-		Determine if individuals are fit for work or not. Help those who are proven unfit."
+	duties = "Поговорите со всеми, кто желает помочь, независимо от их ранга или отношения.<br>\
+		Выписать лекарство и предложить курсы терапии для тех, кто в ней нуждается.<br>\
+		Определите, подходят ли люди для работы или нет. Помогите тем, кто оказался непригодным."
 
 /obj/landmark/join/start/psychiatrist
 	name = "Soteria Psychiatrist"
@@ -222,17 +223,17 @@
 							/datum/computer_file/program/chem_catalog,
 							 /datum/computer_file/program/camera_monitor)
 
-	description = "The Paramedic provides medical assistance on the field, while other doctors are busy in their department.<br>\
-	You are trained but lack seniority. Follow the guidance of other doctors - and transport patients back for specialist treatments.<br>\
-	Remember that you must often respond to emergencies. Pack your gear carefully and bring a breaching tool - be ready to run at short notice.<br>\
-	Your other duties include transporting patients between rooms, running errands, and generally saving time for other doctors.<br>\
-	Corpse recovery may also fall within your duties. If the body is in a dangerous location, enlist the help of the Blackshield Militia."
+	description = "Фельдшер оказывает медицинскую помощь на местах, в то время как другие врачи заняты в своем отделении.<br>\
+	Вы обучены, но вам не хватает стажа. Следуйте указаниям других врачей и доставьте пациентов обратно для специализированного лечения.<br>\
+	Помните, что вы часто должны реагировать на чрезвычайные ситуации. Аккуратно соберите свое снаряжение и принесите инструмент для взлома - будьте готовы к работе в кратчайшие сроки.<br>\
+	Ваши другие обязанности включают перевозку пациентов между комнатами, выполнение поручений и, как правило, экономию времени для других врачей..<br>\
+	Восстановление трупа также может входить в ваши обязанности. Если тело находится в опасном месте, вам стоит заручиться поддержкой Blackshield Militia."
 
-	duties = "Respond to distress calls and extract wounded people from dangerous situations.<br>\
-	Watch the crew monitor for signs of injuries or deaths and respond accordingly.<br>\
-	Tour around departments checking up on the health of the crew. Administer first aid on scene as required.<br>\
-	During quieter times, retrieve the corpses of the dead.<br>\
-	Run errands for the medbay staff, act as their hands outside of the medbay."
+	duties = "Реагируйте на вызовы бедствия и извлекайте раненых из опасных ситуаций.<br>\
+	Следите за монитором экипажа на предмет признаков травм или смерти и реагируйте соответственно.<br>\
+	Гуляйте по отделам, проверяйте состояния экипажа. Администрируйте первую помощь на месте по мере необходимости.<br>\
+	В более спокойное время извлекайте трупы мертвых.<br>\
+	Выполняйте поручения для сотрудников медбэя, действуйте как его руки за пределами медбэя."
 
 /obj/landmark/join/start/paramedic
 	name = "Soteria Paramedic"
